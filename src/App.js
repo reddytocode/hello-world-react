@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from "@mui/material/Button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <button>soy un boton</button>
-      </header>
+        <Button variant="text">Text</Button>
+        <Button variant="contained" disabled>Contained</Button>
+        <Button variant="outlined">Outlined</Button>
+
     </div>
   );
 }
